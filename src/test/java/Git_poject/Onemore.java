@@ -4,7 +4,7 @@ public class Onemore {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Stribg adn original code");
+		System.out.println("Stribg and original code");
 		
 	}
 	
