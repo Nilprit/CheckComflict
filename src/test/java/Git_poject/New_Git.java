@@ -9,7 +9,6 @@ public class New_Git {
 				System.out.println("Hello word with more Love");
 				System.out.println("Hello word with more Love from India");
 				
-		
 			}
-
+	
 }
