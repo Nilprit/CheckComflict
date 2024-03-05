@@ -6,10 +6,18 @@ public class rotaionofstring {
 		
 		String str1 = "ABCD";
 		
-		String str2 = "EFGH";
+		String str2 = "CDAB";
+		
+		int l = str2.length();
 		
 		
-		if(isRotaion(str1, str2))
+		
+		int x = (str1+str2).indexOf(str2);
+		
+		System.out.println(x);
+		
+		
+		if(isRotaion(str1, str2, l))
 		{
 			System.out.println("Rotation is present");
 		}		
@@ -20,9 +28,9 @@ public class rotaionofstring {
 		}
 	}
 
-	public static boolean isRotaion(String str1, String str2)
+	public static boolean isRotaion(String str1, String str2, int l)
 	{
-		return (str1.length() == str2.length()) && ((str1+str2).indexOf(str2) !=-1);
+		return (str1.length() == str2.length()) && ((str1+str2).indexOf(str2) !=l); // str1+str2 = ABCDFDAC 
 		
 	}
 	
