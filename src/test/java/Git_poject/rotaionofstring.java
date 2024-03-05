@@ -19,7 +19,7 @@ public class rotaionofstring {
 		
 		if(isRotaion(str1, str2, l))
 		{
-			System.out.println("Rotation is present");
+			System.out.println("Rotation is present once");
 		}		
 		
 		else
