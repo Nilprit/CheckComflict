@@ -6,7 +6,7 @@ public class rotaionofstring {
 		
 		String str1 = "ABCD";
 		
-		String str2 = "CDAB";
+		String str2 = "CDABC";
 		
 		int l = str2.length();
 		
