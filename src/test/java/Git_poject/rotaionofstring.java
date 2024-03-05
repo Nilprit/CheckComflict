@@ -30,7 +30,7 @@ public class rotaionofstring {
 
 	public static boolean isRotaion(String str1, String str2, int l)
 	{
-		return (str1.length() == str2.length()) && ((str1+str2).indexOf(str2) !=l); // str1+str2 = ABCDFDAC 
+		return (str1.length() == str2.length()) && ((str1+str2).indexOf(str2) !=-1); // str1+str2 = ABCDFDAC 
 		
 	}
 	
